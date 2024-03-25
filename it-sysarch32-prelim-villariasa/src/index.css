@@ -1,0 +1,202 @@
+body {
+  background: linear-gradient(to bottom, #536E66, #B08D19, #272D51); /* Gradient background */
+}
+
+header {
+  text-align: left;
+  padding-bottom: 10px;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+  color: #F7BB0D;
+  background: #272D50;
+}
+
+header h1 {
+  margin-bottom: -42px;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -700px;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.language-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+}
+
+.language-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #272D50;
+  color: #ccc;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.language-buttons button:hover {
+  background-color: #F7BB0D;
+  color: black;
+}
+
+.num-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+
+}
+
+.num-buttons button{
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #272D50;
+  color: #ccc;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.num-buttons button:hover{
+  background-color: #F7BB0D;
+  color: black;
+
+}
+
+.pokemon {
+  border: 2px solid hsl(0, 0%, 80%);
+  background: #272D50;
+  color: #F7BB0D;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.disabled-button {
+  color: #ccc; /* Gray color */
+  cursor: not-allowed; /* Change cursor to not-allowed */
+  opacity: 0.5; 
+}
+
+.disabled-button:hover{
+  cursor: not-allowed; 
+}
+
+
+.loading {
+  color: #ccc;
+}
+
+.pokemon:hover {
+  border-color: hsl(210, 70%, 80%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon .pokemon-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
+.pokemon .pokemon-name {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: gainsboro;
+}
+
+.pokemon .type {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pokemon .type .btn {
+  margin: 0 5px;
+  background-color: #F7BB0D;
+  color: black;
+  font-family: 'Quinoa Text SC Ultrabold', sans-serif;
+  font-size: 15px;
+}
+
+.pokemon .btn {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 150px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pokemon .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pokemon p {
+  font-family: Arial, sans-serif;
+  margin: 5px 0;
+}
+
+.pokemon .details {
+  font-weight: bold;
+  margin-left: -100px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 11px;
+}
+
+.details h2 {
+  margin: 2px 0;
+  font-family: 'Transcend Bold', sans-serif;
+  text-align: center;
+}
+
+.details .stats {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 95px;
+  width: 100%;
+}
+
+.stats h2 {
+  flex-basis: 100%;
+  text-align: center;
+}
